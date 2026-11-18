@@ -1,0 +1,42 @@
+{
+  "tet4_elements": 95877,
+  "solid_nodes": 26921,
+  "minimum_detJ": 7.918218105139903e-08,
+  "minimum_scaled_quality": 0.02511945762910475,
+  "mean_scaled_quality": 0.8401949856768797,
+  "quality_percentiles": [
+    0.5578712754837518,
+    0.6654124557937293,
+    0.8553874562848117,
+    0.9635235799353016
+  ],
+  "elements_below_quality_threshold": 12,
+  "solid_volume": 0.48615166999013476,
+  "original_boundary_volume": 0.48412884773369286,
+  "remeshed_boundary_volume": 0.4861516699901351,
+  "boundary_volume_change_fraction": 0.004178272511360322,
+  "connectivity_verified": true,
+  "cell_size": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "cell_counts": [
+    2,
+    1,
+    1
+  ],
+  "thickness": [
+    0.02,
+    0.1,
+    0.2
+  ],
+  "element_size": 0.08,
+  "gmsh_version": "4.15.2",
+  "element_type": "TET4: 4-node linear tetrahedron",
+  "limitations": [
+    "No global boundary self-intersection test.",
+    "No guaranteed integer count through the wall.",
+    "Starting-point mesh; inspect quality and establish FE convergence."
+  ]
+}
